@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="expressly">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="vendor.css" rel="stylesheet">
+    <link href="bundle.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+</head>
+
+<body>
+
+<nav class="navbar navbar-default container cont">
+<ul class="nav navbar-nav">
+  <li ><a ng-href="/"><i class="glyphicon glyphicon-home"></i>&nbspHOME</a></li>
+  <li ><a ng-href="https://www.google.com" target="_blank"><i class="glyphicon glyphicon-globe"></i>&nbspGOOGLE</a></li>  
+</ul>
+</nav>
+
+<div class="container text-center" ng-view></div>
+
+<div class="panel-footer navbar-fixed-bottom container text-center">Zelenskaya Tanya</div>
+
+<script src="bundle.js"></script>
+<script src="config.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+
+</body>
+
+</html>
